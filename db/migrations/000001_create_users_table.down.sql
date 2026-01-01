@@ -1,0 +1,6 @@
+ALTER TABLE users DROP FOREIGN KEY fk_users_roles;
+
+ALTER TABLE users DROP INDEX fk_users_roles;
+
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS roles;
