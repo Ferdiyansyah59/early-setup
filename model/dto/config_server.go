@@ -5,5 +5,6 @@ type ServerConfig struct {
 	ServiceHost string `env:"SERVICE_HOST"`
 	ServicePort string `env:"SERVICE_PORT"`
 	Database    DatabaseConfig
+	JWT JWTconfigDto
 }
   
